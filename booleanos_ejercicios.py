@@ -19,6 +19,8 @@ Crea una función llamada clasificar_edad que reciba la edad de una persona y de
 Si la persona es menor de 13, la función debe imprimir "Es un niño".
 Si tiene entre 13 y 17, debe imprimir "Es un adolescente".
 Si es mayor o igual a 18, debe imprimir "Es un adulto".
+
+El usuario debe poder ingresar la edad manualmente.
 --------------------------------------------------------------------------------------------------
 """
 
