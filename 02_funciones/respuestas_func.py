@@ -27,9 +27,9 @@ def celsius_a_fahrenheit (grados_celsius):
     return fahrenheit
 try:
 
-    resultado =  int(input("Ingresa los grados celsius: "))
-    grados_fahrenheit = celsius_a_fahrenheit(resultado)
-    print(f"Los grados fahrenheit son: {grados_fahrenheit}")
+    grados_celsius=  int(input("Ingresa los grados celsius: "))
+    conversion = celsius_a_fahrenheit(grados_celsius)
+    print(f"Los grados fahrenheit son: {conversion}")
 
 except ValueError:
     print("Por favor, ingresa un número entero.")

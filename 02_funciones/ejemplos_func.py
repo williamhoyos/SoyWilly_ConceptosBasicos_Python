@@ -45,7 +45,7 @@ Ejemplo básico:
 Supón que quieres pedir al usuario que ingrese su altura en metros para convertirla a centímetros. Usamos float() porque la altura puede incluir decimales.
 
 """
-#Ejemplo SIN Try y axcept ValueError
+#Ejemplo SIN manejo de errores
 def metros_a_centimetros(metros):
     return metros * 100
 
@@ -54,7 +54,8 @@ altura_centimetros = metros_a_centimetros(altura_metros)
 print(f"Tu altura en centímetros es: {altura_centimetros} cm")
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Ejemplo con Try y axcept ValueError agregados
+
+#Ejemplo CON manejo de errores / Try y except ValueError
 def metros_a_centimetros(metros):
     return metros * 100
 
