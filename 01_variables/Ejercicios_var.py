@@ -20,14 +20,14 @@ perimetro = 2 * (base + altura)
 #Escribe aqui tu codigo:
 
 """
-Ejercicio 5:
+Ejercicio 4:
 Crea tres variables para almacenar las notas de un estudiante en tres materias. Calcula el promedio de las notas y muestra el resultado.
 Ejemplo: Si nota1 = 80, nota2 = 90, y nota3 = 70, el promedio debería ser 80.
 """
 #Escribe aqui tu codigo:
 
 """
-Ejercicio 4:
+Ejercicio 5:
 Crea dos variables, a y b, y asígnales valores numéricos. Luego, intercambia los valores de ambas variables y muestra el resultado en la consola.
 Ejemplo: Si a = 5 y b = 10, después del intercambio, a debería ser 10 y b debería ser 5.
 """
