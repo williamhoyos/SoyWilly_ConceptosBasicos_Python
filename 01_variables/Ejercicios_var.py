@@ -32,3 +32,12 @@ Crea dos variables, a y b, y asígnales valores numéricos. Luego, intercambia l
 Ejemplo: Si a = 5 y b = 10, después del intercambio, a debería ser 10 y b debería ser 5.
 """
 #Escribe aqui tu codigo:
+class Cuenta:
+    def init(self, usuario, contraseña):
+        self.usuario = usuario
+        self.contraseña = contraseña
+    def saludar_al_usuario(self, mensaje):
+        return f"{mensaje} malparido {self.usuario}"
+usuario = Cuenta("Willyrex", "pene123")
+mensaje = usuario.saludar_al_usuario("Hola, ")
+print(mensaje)
